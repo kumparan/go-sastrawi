@@ -1,3 +1,3 @@
 module github.com/RadhiFadlillah/go-sastrawi
 
-go 1.14
+go 1.22
