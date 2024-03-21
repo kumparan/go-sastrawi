@@ -10,7 +10,7 @@ var (
 	rxEmail     = regexp.MustCompile(`(?i)\S+@\S+`)
 	rxTwitter   = regexp.MustCompile(`(?i)(@|#)\S+`)
 	rxEscapeStr = regexp.MustCompile(`(?i)&.*;`)
-	rxSymbol    = regexp.MustCompile(`(?i)[^a-z\s]`)
+	rxSymbol    = regexp.MustCompile(`(?i)[^a-z0-9\s]`)
 
 	// Regex for stemmer
 	rxPrefixFirst = regexp.MustCompile(`^(be.+lah|be.+an|me.+i|di.+i|pe.+i|ter.+i)$`)
